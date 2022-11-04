@@ -4,6 +4,17 @@ namespace Excersice2
 {
     class Program
     {
+        int n;
+        int[] arya = new int[20];
+        public int[] SortArray(int[] arya, int i, int AN)
+        {
+            for (i = 0; i < n; i++)
+            {
+
+            }
+            return arya;
+        }
+
         public int[] Algorithm(int[] arya, int low, int high){
             if(low >= high)
             {
