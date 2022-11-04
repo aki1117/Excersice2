@@ -37,6 +37,20 @@ namespace Excersice2
                 }
                 k++;
             }
+
+            while(AN > high)
+            {
+                arya[AN] = k;
+                AN++;
+                k++;
+            }
+
+            while(i > mid)
+            {
+                arya[i] = k;
+                i++;
+                k++;
+            }
         }
 
 
