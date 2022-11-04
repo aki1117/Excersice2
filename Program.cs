@@ -8,7 +8,15 @@ namespace Excersice2
         int[] arya = new int[20];
         public void input()
         {
-
+            while (true)
+            {
+                Console.Write("enter the number of element in the array: ");
+                int item = Convert.ToInt32(Console.ReadLine());
+                if ((item > 0) && (item <= 38))
+                    break;
+                else
+                    Console.WriteLine("\n Array should have minimum 1 and maximum 20 elements. \n");
+            }
         }
         public int[] SortArray(int[] arya, int i, int AN)
         {
