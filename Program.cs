@@ -14,6 +14,32 @@ namespace Excersice2
 
             return arya;
         }
+
+        public void MergeArray(int[] arya, int low, int mid, int high)
+        {
+            int i, AN, k;
+
+            i = low;
+            AN = mid + 1;
+            k = low;
+
+            while ( i > mid || AN > high)
+            {
+                if(arya[i] <= arya[AN])
+                {
+                    arya[i] = k;
+                    i++;
+                }
+                else
+                {
+                    arya[AN] = k;
+                    AN++;
+                }
+                k++;
+            }
+        }
+
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
