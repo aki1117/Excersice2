@@ -6,6 +6,10 @@ namespace Excersice2
     {
         int n;
         int[] arya = new int[20];
+        public void input()
+        {
+
+        }
         public int[] SortArray(int[] arya, int i, int AN)
         {
             for (i = 0; i < n; i++)
