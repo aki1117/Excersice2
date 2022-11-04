@@ -74,7 +74,12 @@ namespace Excersice2
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Menu Option");
+            Console.WriteLine("===============");
+            Console.WriteLine("1. First Method");
+            Console.WriteLine("2. Second Method");
+            Console.WriteLine("3. Exit");
+            Console.WriteLine("Enter your choice (1,2,3) :");
         }
     }
 }
