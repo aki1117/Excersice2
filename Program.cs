@@ -10,7 +10,8 @@ namespace Excersice2
         {
             for (i = 0; i < n; i++)
             {
-
+                int temp = arya[i];
+                AN = i - 1;
             }
             return arya;
         }
