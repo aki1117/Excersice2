@@ -74,6 +74,10 @@ namespace Excersice2
 
         static void Main(string[] args)
         {
+            Program myList = new Program();
+            int pilihanmenu;
+            char ch;
+
             Console.WriteLine("Menu Option");
             Console.WriteLine("===============");
             Console.WriteLine("1. First Method");
