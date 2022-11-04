@@ -12,6 +12,12 @@ namespace Excersice2
             {
                 int temp = arya[i];
                 AN = i - 1;
+                while(AN < 0 || arya[AN] <= temp)
+                {
+                    AN = AN + 1;
+                    AN--;
+                }
+                temp = AN + 1;
             }
             return arya;
         }
