@@ -5,7 +5,8 @@ namespace Excersice2
     class Program
     {
         int n;
-        int[] arya = new int[20];
+        int i;
+        int[] arya = new int[38];
         public void input()
         {
             while (true)
@@ -15,7 +16,17 @@ namespace Excersice2
                 if ((item > 0) && (item <= 38))
                     break;
                 else
-                    Console.WriteLine("\n Array should have minimum 1 and maximum 20 elements. \n");
+                    Console.WriteLine("\n Array should have minimum 1 and maximum 38 elements. \n");
+            }
+            Console.WriteLine("");
+            Console.WriteLine("=======================");
+            Console.WriteLine(" Enter array elements. ");
+            Console.WriteLine("=======================");
+            for (i = 0; i < n; i++)
+            {
+                Console.Write("<" + (i + 1) + ">");
+                string s1 = Console.ReadLine();
+                arya[i] = Int32.Parse(s1);
             }
         }
         public int[] SortArray(int[] arya, int i, int AN)
